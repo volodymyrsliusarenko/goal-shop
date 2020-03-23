@@ -27,9 +27,13 @@
 						 <a class="nav-link" href="#products">Products</a>
 					 </li>
 					 <li class="nav-item">
+						 <a class="nav-link" href="#feedback">Feedback</a>
+					 </li>
+                     <li class="nav-item">
 						 <a class="nav-link" href="#contacts">Contacts</a>
 					 </li>
 				 </ul>
+                 <div class="clock"></div>
                  <div>
                      <a class="nav-link openCartLink" href="#modal-cart" data-toggle="modal">
                          <i class="fas fa-shopping-cart"></i>
@@ -75,7 +79,25 @@
         </section>
 	 </main>
      <footer class="container">
-     
+         <div id="feedback">
+             <h2>Leave a short message:<h2>
+             <form action="https://formspree.io/xgezrwwe" method="POST">
+                 <input type="text" name="Name" placeholder="Name" required>
+                 <br>
+                 <input type="email" name="Email" placeholder="Email" required>      
+                 <br>
+                 <textarea placeholder="Message" name="Message" required></textarea>
+                 <br>
+                 <input type="submit" value="Send">
+             </form>
+         </div>
+         <hr>
+         <h2 id="contacts">Contacts</h2>
+         <ul>
+             <li>goal-shop@gmail.com</li>
+             <li>goal-shop</li>
+             <li>Lviv, Shevchenko str., 59</li>
+         </ul>
      </footer>
 
 

@@ -4,14 +4,14 @@
         "title": "Adidas Nemeziz 17",
         "image": "adidas-nemeziz-17.jpg",
         "description": "Boots of best world's player",
-        "price": 499.99
+        "price": 299.99
     },
     {
         "id": "2",
         "title": "Adidas Predator 19",
         "image": "adidas-predator-19.jpg",
         "description": "Boot for real predator",
-        "price": 199.99
+        "price": 349.99
     },
     {
         "id": "3",
@@ -25,34 +25,34 @@
         "title": "Nike Tiempo",
         "image": "nike-tiempo.jpg",
         "description": "Feel the power of old generation",
-        "price": 229.99
+        "price": 199.99
     },
     {
         "id": "5",
         "title": "Nike Phantom",
         "image": "nike-phantom.jpg",
         "description": "Control the game with new Phantome",
-        "price": 729.99
+        "price": 399.99
     },
     {
         "id": "6",
-        "title": "White gyroboard",
+        "title": "Puma Evolution 4",
         "image": "puma-fboots-grey.jpg",
         "description": "White gyroboard with blue lights",
-        "price": 829.99
+        "price": 299.99
     },
     {
         "id": "7",
-        "title": "Tesla Model X",
+        "title": "Adidas Copa 19",
         "image": "adidas-copa-19.jpg",
         "description": "Best crossover in the World",
-        "price": 99999.99
+        "price": 299.99
     },
     {
         "id": "8",
-        "title": "Tesla Roadster",
+        "title": "Puma Evolution 5",
         "image": "puma-fboots.jpg",
         "description": "Best sports car in the World",
-        "price": 249999.99
+        "price": 349.99
     }
 ]
