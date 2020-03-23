@@ -1,16 +1,15 @@
-class ProductsService {
-    constructor() {
-        if (!ProductsService._instance) ProductsService._instance = this;
-        return ProductsService._instance;
-    }
-    async getProducts() {
-        if (!this.products) {
-            this.products = await (await fetch('products.json')).json();
-        }
-        return this.products;
-    }
-    async getProductById(id) {
-        const products = await this.getProducts();
-        return products.find( product => product.id === id );
-    }
+function showAlert(message, success = true) {
+  const alertTemplate = `<div class="alert alert-dismissible ${
+    success ? 'alert-success' : 'alert-danger'
+  }" role="alert">
+          <strong>${message}</strong> 
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+          </button>
+        </div>`;
+  const alertElement = $('body').append(alertTemplate);
+  alertElement.alert();
+  setTimeout(() => {
+    $('.alert').alert('close');
+  }, 2000);
 }
